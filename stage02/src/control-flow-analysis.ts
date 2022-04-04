@@ -1,4 +1,4 @@
-function example() {
+function example01() {
   let x: string | number | boolean;
 
   x = Math.random() < 0.5;
@@ -13,3 +13,6 @@ function example() {
   }
   return x;
 }
+
+let x = example01()
+

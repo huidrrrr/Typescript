@@ -1,5 +1,5 @@
 "use strict";
-function example() {
+function example01() {
     let x;
     x = Math.random() < 0.5;
     console.log(x);
@@ -13,3 +13,4 @@ function example() {
     }
     return x;
 }
+let x = example01();
